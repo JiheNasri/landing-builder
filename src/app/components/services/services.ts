@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 import { CONTENT } from '../../content';
-import { NgForOf, NgIf } from '@angular/common';
+import { NgForOf } from '@angular/common';
 @Component({
   selector: 'app-services',
-  imports: [NgForOf, NgIf],
+  imports: [NgForOf],
   templateUrl: './services.html',
   styleUrl: './services.css',
 })
