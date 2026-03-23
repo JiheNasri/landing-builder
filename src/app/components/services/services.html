@@ -1,1 +1,8 @@
-<p>services works!</p>
+<section>
+  <h2>Our Services</h2>
+
+  <div *ngFor="let s of content.services" class="card">
+    <h3>{{ s.title }}</h3>
+    <p>{{ s.description }}</p>
+  </div>
+</section>
