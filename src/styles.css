@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+body { font-family: Arial, sans-serif; margin: 0; }
+section { padding: 40px 20px; text-align: center; }
+.hero { background: #111; color: white; }
+.btn-primary { background: #25D366; padding: 12px 20px; color: white; border-radius: 5px; text-decoration: none; }
+.card { margin: 10px; padding: 15px; border: 1px solid #eee; }
+
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: white;
+  font-size: 24px;
+  padding: 15px;
+  border-radius: 50%;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
