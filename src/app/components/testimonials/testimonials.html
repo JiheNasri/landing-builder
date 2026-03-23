@@ -1,1 +1,8 @@
-<p>testimonials works!</p>
+<section class="testimonials">
+  <h2>What Our Clients Say</h2>
+
+  <div *ngFor="let t of content.testimonials">
+    <p>"{{ t.message }}"</p>
+    <strong>- {{ t.name }}</strong>
+  </div>
+</section>
